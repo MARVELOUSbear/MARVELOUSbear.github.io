@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/hobbies.css" rel="stylesheet" />
+
+    <title>Hobbies</title>
+  </head>
+  <body>
+    <div class="container top-nav">
+      <nav class="navbar navbar-expand-lg" id="topNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./intro.html">Introduction</a>
+              <a class="nav-link" href="./hobbies.html">Hobbies</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 left-col">
+          <nav id="directory" class="nav sticky-top">
+            <a class="navbar-brand" href="#title">Hobbies</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#music">Music</a>
+              <a class="nav-link" href="#activities">Activities</a>
+              <a class="nav-link" href="#food">Food</a>
+            </nav>
+          </nav>
+        </div>
+
+        <div
+          class="col-lg-9 right-col"
+          data-bs-spy="scroll"
+          data-bs-target="#directory"
+          data-bs-offset="0"
+          tabindex="0"
+        >
+          <div class="row section">
+            <div class="col-lg-12">
+              <h1 id="title">Hobbies</h1>
+            </div>
+          </div>
+          <div class="row section">
+            <h2 id="music">Music</h2>
+            <p>
+              I'm a fan of rock music created from the 70s to the 90s. My
+              favorite bands include Led Zeppelin, Queen, and X Japan.
+            </p>
+            <p>These are some of my favorite albums:</p>
+            <div
+              id="albumCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-bs-target="#albumCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="3"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="4"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="5"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="6"></li>
+                <li data-bs-target="#albumCarousel" data-bs-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/albums/Xjapan_Jealousy.gif"
+                    class="d-block"
+                    alt="X Japan Jealousy"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/albums/Queen_Sheer_Heart_Attack.png"
+                    class="d-block"
+                    alt="Queen Sheer Heart Attack"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/albums/Queen_Queen.png"
+                    class="d-block"
+                    alt="Queen Queen"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/albums/Queen_A_Night_At_The_Opera.png"
+                    class="d-block"
+                    alt="Queen A Night At The Opera"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/albums/Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
+                    class="d-block"
+                    alt="Led Zeppelin - Led Zeppelin IV"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/albums/Led_Zeppelin_-_Led_Zeppelin_III.png"
+                    class="d-block"
+                    alt="Led Zeppelin - Led Zeppelin III"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/albums/Artoflifex.jpg"
+                    class="d-block"
+                    alt="Art of Life"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#albumCarousel"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <i class="fas fa-angle-double-left fa-4x"></i>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#albumCarousel"
+                role="button"
+                data-bs-slide="next"
+              >
+                <i class="fas fa-angle-double-right fa-4x"></i>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="row section">
+            <h2 id="activities">Activities</h2>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card activity">
+                  <img
+                    src="./images/activities/obstacle_course.jpg"
+                    class="card-img-top"
+                    alt="obstacle course"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      I love all kinds of obstacle courses, indoor ones, outdoor
+                      ones, high rope ones, you name it, as long as they are
+                      thrilling enough.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card activity">
+                  <img
+                    src="./images/activities/camping.jpg"
+                    class="card-img-top"
+                    alt="camping"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Camping is kind of a holiday tradition for my family. In
+                      Altay (the place I took this photo and my home page
+                      cover), camping in the snow brought me tons of fun.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card activity">
+                  <img
+                    src="./images/activities/ski.jpg"
+                    class="card-img-top"
+                    alt="ski"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Skiing is my favorite sport in the winter. I don't have
+                      any selfies taken when I was skiing. This is a ski resort
+                      I've been to in China.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-md-12" id="alertContainer"></div>
+            </div>
+          </div>
+
+          <div class="row section">
+            <h2 id="food">Food</h2>
+            <div class="row">
+              <div class="card food">
+                <div class="row">
+                  <div class="col-lg-4 p-0">
+                    <img
+                      class="card-left-img"
+                      src="./images/Trivia-Time.jpg"
+                      alt="trivia"
+                    />
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Trivia Time</h5>
+                      <p class="card-text">
+                        Which of the following is Ziqi's favourite icecream
+                        flavor?
+                      </p>
+                      <div class="row">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="foodRadio"
+                            id="foodRadio1"
+                          />
+                          <label class="form-check-label" for="foodRadio1">
+                            Mint Chip
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="foodRadio"
+                            id="foodRadio2"
+                          />
+                          <label class="form-check-label" for="foodRadio2">
+                            Rum Raisin
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="foodRadio"
+                            id="foodRadio3"
+                          />
+                          <label class="form-check-label" for="foodRadio3">
+                            Cookie Dough
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="foodRadio"
+                            id="foodRadio4"
+                          />
+                          <label class="form-check-label" for="foodRadio4">
+                            French Vanilla
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <button
+                          class="btn btn-primary"
+                          id="triviaButton"
+                          type="submit"
+                        >
+                          Submit Answer
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center footer">
+        <div class="col-lg-12">
+          <h2 id="contact">Contact Me</h2>
+          <div class="btn-group" role="group">
+            <a class="btn btn-primary" href="https://github.com/MARVELOUSbear">
+              <i class="fab fa-github-square"></i>
+            </a>
+            <a class="btn btn-primary" href="https://twitter.com/ziqi_xu13">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a
+              class="btn btn-primary"
+              href="https://www.linkedin.com/in/ziqixu-jill/"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ef729e7b52.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

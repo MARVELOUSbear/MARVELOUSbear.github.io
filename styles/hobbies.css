@@ -1,0 +1,158 @@
+body {
+  height: 100%;
+  background-color: #9ca8b8;
+  position: relative;
+}
+
+.container.top-nav,
+.footer {
+  background-color: #c1cbd7;
+}
+
+.left-col {
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  background-color: #ececea;
+}
+
+.right-col {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em;
+  padding: 0 5% 0 5%;
+  background-color: #ffffff;
+  color: #8698a7;
+}
+
+.right-col .row.section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#topNav a,
+#directory a,
+.row.footer {
+  color: #6a6a6a;
+  font-family: "Rajdhani", sans-serif;
+}
+
+#topNav a.nav-link {
+  font-size: 2em;
+}
+
+#topNav a.navbar-brand {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+i.fas.fa-list {
+  color: white;
+}
+
+#directory a.nav-link {
+  font-size: 1.5em;
+}
+
+#directory a.navbar-brand {
+  direction: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+#directory a.nav-link.active {
+  background-color: unset;
+}
+
+.right-col h2 {
+  font-weight: 500;
+}
+
+.right-col h1 {
+  font-weight: 600;
+}
+
+.right-col h4,
+.right-col h2 {
+  margin-bottom: 0.5rem;
+}
+
+.badge.bg-secondary {
+  margin: 0 0.1rem 0.5rem 0.1rem;
+}
+
+.row.footer {
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.row.footer.h2 {
+  margin: 2em 0 2rem 0;
+}
+
+.footer .btn.btn-primary {
+  background-color: #6a6a6a;
+  border-color: #6a6a6a;
+}
+
+.fas.fa-angle-double-left,
+.fas.fa-angle-double-right {
+  color: #c1cbd7;
+}
+
+ol.carousel-indicators li {
+  background-color: #c1cbd7;
+}
+
+.carousel-item .d-block {
+  margin: 0 auto;
+  width: auto;
+  height: 15rem;
+  max-height: 15rem;
+}
+
+#albumCarousel {
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 12.5rem;
+  max-height: 12.5rem;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card.food {
+}
+
+img.card-left-img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card.activity {
+  height: 25rem;
+  overflow: auto;
+  background-color: #f8f9fa;
+  border-color: transparent;
+  box-shadow: 0.05rem 0.03rem 0.2rem 0 #c1cbd7;
+}
+
+.card.food .card-body {
+  padding: 1.5rem 3rem 1.5rem 3rem;
+}
+
+.form-check-input:checked {
+  background-color: #8698a7;
+  border-color: #8698a7;
+}
+
+#triviaButton {
+  margin: 0 auto;
+  width: 30%;
+  background-color: #8698a7;
+  border-color: #8698a7;
+}
