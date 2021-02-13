@@ -52,4 +52,4 @@ This page has the same navbar layout as the introduction page. The three section
 
 ## Video Demonstration
 
-[Youtube Video URL](https://youtu.be/ueuFYC9kDkQ)
+[YouTube Video URL](https://youtu.be/ueuFYC9kDkQ)
