@@ -12,25 +12,25 @@ This project is a course project in [CS5610 Web Development at Northeastern Univ
 
 ### Home Page
 
-![Home Page](./screenshots/index.png)
+![Home Page](./images/screenshots/index.png)
 
 ### Introduction Page
 
 This page consists of a top navbar, a side navbar and three sections. The side navbar will be fixed on the left of the page while you scrolling down this page, and all the menu options in this navbar can be used to scroll the page to the position of the corresponding section.
 
-![Introduction Page Part 1](./screenshots/introduction1.png "Navbars, Introduction section, and Education section")
+![Introduction Page Part 1](./images/screenshots/introduction1.png "Navbars, Introduction section, and Education section")
 
-![Introduction Page Part 2](./screenshots/introduction2.png "Fixed Side Navbar, Work Experience Section, and Footer")
+![Introduction Page Part 2](./images/screenshots/introduction2.png "Fixed Side Navbar, Work Experience Section, and Footer")
 
 ### Hobbies Page
 
 This page has the same navbar layout as the introduction page. The three sections of contents on this page include a slideshow of images, some images and texts presented as cards, and a multiple choice section that can prompt different messages according to submitted answers.
 
-![Hobbies Page Part 1](./screenshots/hobbies1.png "Slideshow and Cards")
+![Hobbies Page Part 1](./images/screenshots/hobbies1.png "Slideshow and Cards")
 
-![Hobbies Page Part 2](./screenshots/hobbies2.png "Multiple Choice Section before Submission")
+![Hobbies Page Part 2](./images/screenshots/hobbies2.png "Multiple Choice Section before Submission")
 
-![Hobbies Page Part 3](./screenshots/hobbies3.png "Multiple Choice Section with Prompted Response Message")
+![Hobbies Page Part 3](./images/screenshots/hobbies3.png "Multiple Choice Section with Prompted Response Message")
 
 ## Tech requirements
 
