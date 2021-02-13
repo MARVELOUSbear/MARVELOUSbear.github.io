@@ -18,7 +18,7 @@ This project is a course project in [CS5610 Web Development at Northeastern Univ
 
 This page consists of a top navbar, a side navbar and three sections. The side navbar will be fixed on the left of the page while you scrolling down this page, and all the menu options in this navbar can be used to scroll the page to the position of the corresponding section.
 
-![Introduction Page Part 1](.https://github.com/MARVELOUSbear/MARVELOUSbear.github.io/blob/main/images/screeshots/introduction1.png "Navbars, Introduction section, and Education section")
+![Introduction Page Part 1](https://github.com/MARVELOUSbear/MARVELOUSbear.github.io/blob/main/images/screeshots/introduction1.png "Navbars, Introduction section, and Education section")
 
 ![Introduction Page Part 2](https://github.com/MARVELOUSbear/MARVELOUSbear.github.io/blob/main/images/screeshots/introduction2.png "Fixed Side Navbar, Work Experience Section, and Footer")
 
