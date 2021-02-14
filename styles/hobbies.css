@@ -89,11 +89,9 @@ i.fas.fa-list {
   margin: 2em 0 2rem 0;
 }
 
-.footer .btn-group .btn.btn-primary {
+.footer .btn.btn-primary {
   background-color: #6a6a6a;
   border-color: #6a6a6a;
-  border-radius: 0.35rem;
-  margin: 0.075rem;
 }
 
 .fas.fa-angle-double-left,
