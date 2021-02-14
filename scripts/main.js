@@ -1,7 +1,7 @@
 const onClickTriviaButton = () => {
   const alertContainer = document.querySelector("#alertContainer");
   const selectedOption = document.querySelector(".form-check-input:checked");
-  // const alertMessage = document.createElement('div');
+
   let message;
   if (!selectedOption) {
     message = "You must choose an option before submitting!";
