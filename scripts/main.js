@@ -1,3 +1,7 @@
+/* This some great JavaScript functionality. Adding trivia to your site is a cool and unique feature!
+I think adding some comments to this code may be helpful to someone downloading the project.
+*/
+
 const onClickTriviaButton = () => {
   const alertContainer = document.querySelector("#alertContainer");
   const selectedOption = document.querySelector(".form-check-input:checked");
